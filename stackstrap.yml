@@ -1,0 +1,17 @@
+#
+# StackStrap meta-data
+#
+
+---
+template_name: Node.js Template
+template_description:
+  This template creates an environment for node.js development
+
+cleanup:
+  - README.rst
+
+file_templates:
+  - Vagrantfile
+
+path_templates:
+  - PROJECT-README: README
