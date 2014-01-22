@@ -17,6 +17,7 @@ install_nvm:
     - run
     - name: curl https://raw.github.com/creationix/nvm/master/install.sh | sh
     - unless: -d /home/vagrant/.nvm
+    - user: vagrant
     - require:
       - pkg: nvm_deps
 
